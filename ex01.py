@@ -9,16 +9,16 @@
 # pares de 100 até 200, incluindo-os.
 #
 # entrada de dados
-valor = int(input("informe um valor: "))
-quantidade = 0
+valor = int(input("informe um valor: ")) # ler o valor e armazenar em uma variável valor
+quantidade = 0 # criar uma variável para armazenar a quantidade de números pares
 
 # processamento de dados
-for i in range(100, 201):
-    if i % 2 == 0:
-        print(i)
-        quantidade += 1
-    else:
-        continue
+for i in range(100, 201): # criar um laço para calcular a quantidade de números pares de 100 até 200
+    if i % 2 == 0: # se o resto da divisão do número informado pelo usuário por 2 for igual a 0
+        print(i) # imprimir o número informado pelo usuário
+        quantidade += 1 # incrementar a quantidade de números pares informados pelo usuário
+    else: # se o resto da divisão do número informado pelo usuário por 2 não for igual a 0 (número impar)
+        continue # continuar o laço de repetição
 
 # saida de dados
 print(f"A quantidade de números pares de 100 até 200 é {quantidade}")
