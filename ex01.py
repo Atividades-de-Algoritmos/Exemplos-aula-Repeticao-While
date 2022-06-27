@@ -8,6 +8,7 @@
 # 1 - Programa que imprime a quantidade de números
 # pares de 100 até 200, incluindo-os.
 #
+# usando o laço While
 # entrada de dados
 num = 100
 contadorPares = 0
@@ -19,7 +20,7 @@ print(contadorPares)
 
 
 
-# usando FOR:
+# usando o laço FOR:
 # entrada de dados
 valor = int(input("informe um valor: ")) # ler o valor e armazenar em uma variável valor
 quantidade = 0 # criar uma variável para armazenar a quantidade de números pares
