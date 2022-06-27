@@ -9,19 +9,18 @@
 # pares entre dois números quaisquer?
 #
 # usando o laço While:
-num1 = int(input('Entre com o valor inicial: '))
+num1 = int(input('Entre com o valor inicial: ')) # ler o valor e armazenar em uma variável valor1
 num2 = int(input('Entre com o valor final: '))
-#ou
 # num1 = 1
 # num2 = 20
-contadorPares = 1
+contadorPares = 1 # criar uma variável para armazenar a quantidade de números pares entre os valores informados pelo usuário
 
-while num1 <= num2:
-  print(num1)
-  if num1 % 2 == 0:
-    contadorPares = contadorPares + 1
+while num1 <= num2: # criar um laço para contar a quantidade de números pares entre os valores informados pelo usuário
+  # print(num1) # imprimir o número informado pelo usuário na tela
+  if num1 % 2 == 0: # se o resto da divisão do número informado pelo usuário por 2 for igual a 0
+    contadorPares = contadorPares + 1 # incrementar a quantidade de números pares informados pelo usuário
   num1 = num1 + 1   # ficar atento a identação do bloco para evitar um loop infinito
-print(contadorPares)
+print(contadorPares) # imprimir a quantidade de números pares entre os valores informados pelo usuário
 print('fim do programa')
 
 
