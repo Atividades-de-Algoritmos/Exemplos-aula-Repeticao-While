@@ -9,6 +9,18 @@
 # pares de 100 até 200, incluindo-os.
 #
 # entrada de dados
+num = 100
+contadorPares = 0
+while num <= 200:
+  if num % 2 == 0:
+    contadorPares = contadorPares + 1
+  num = num + 1 # ficar atento a identação do bloco para evitar um loop infinito
+print(contadorPares)
+
+
+
+# usando FOR:
+# entrada de dados
 valor = int(input("informe um valor: ")) # ler o valor e armazenar em uma variável valor
 quantidade = 0 # criar uma variável para armazenar a quantidade de números pares
 
