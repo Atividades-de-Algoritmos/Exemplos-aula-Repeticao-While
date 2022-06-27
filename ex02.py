@@ -27,6 +27,11 @@ print('fim do programa')
 
 
 
+
+#############################################################################
+print("#############################################################################")
+
+
 # usando o laço FOR:
 # entrada de dados
 valor1 = int(input("informe um valor: ")) # ler o valor e armazenar em uma variável valor1
