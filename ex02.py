@@ -8,6 +8,27 @@
 # 2 -programa para contar a quantidade de números
 # pares entre dois números quaisquer?
 #
+# usando o laço While:
+num1 = int(input('Entre com o valor inicial: '))
+num2 = int(input('Entre com o valor final: '))
+#ou
+# num1 = 1
+# num2 = 20
+contadorPares = 1
+
+while num1 <= num2:
+  print(num1)
+  if num1 % 2 == 0:
+    contadorPares = contadorPares + 1
+  num1 = num1 + 1   # ficar atento a identação do bloco para evitar um loop infinito
+print(contadorPares)
+print('fim do programa')
+
+
+
+
+
+# usando o laço FOR:
 # entrada de dados
 valor1 = int(input("informe um valor: ")) # ler o valor e armazenar em uma variável valor1
 valor2 = int(input("informe um valor: ")) # ler o valor e armazenar em uma variável valor2
