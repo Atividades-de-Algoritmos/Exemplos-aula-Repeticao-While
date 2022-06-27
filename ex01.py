@@ -10,13 +10,14 @@
 #
 # usando o laço While
 # entrada de dados
-num = 100
-contadorPares = 0
-while num <= 200:
-  if num % 2 == 0:
-    contadorPares = contadorPares + 1
+num = 100 # criar uma variável para armazenar o número inicial
+contadorPares = 0 # criar uma variável para armazenar a quantidade de números pares entre 100 e 200
+while num <= 200: # criar um laço para calcular a quantidade de números pares entre 100 e 200 incluindo-os
+  if num % 2 == 0: # se o resto da divisão do número informado pelo usuário por 2 for igual a 0 (número par)
+    contadorPares = contadorPares + 1 # incrementar a quantidade de números pares informados pelo usuário + 1
   num = num + 1 # ficar atento a identação do bloco para evitar um loop infinito
-print(contadorPares)
+print(contadorPares) # imprimir a quantidade de números pares entre 100 e 200 incluindo-os
+print("fim do programa")
 
 
 ###############################################################################
@@ -24,7 +25,6 @@ print("#########################################################################
 
 # usando o laço FOR:
 # entrada de dados
-valor = int(input("informe um valor: ")) # ler o valor e armazenar em uma variável valor
 quantidade = 0 # criar uma variável para armazenar a quantidade de números pares
 
 # processamento de dados
