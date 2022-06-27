@@ -11,15 +11,15 @@
 #
 # usando o laço While:
 # entrada de dados
-num1 = int(input('Entre com o valor inicial: '))
-num2 = int(input('Entre com o valor final: '))
+num1 = int(input('Entre com o valor inicial: ')) # ler o valor e armazenar em uma variável valor1
+num2 = int(input('Entre com o valor final: '))  # ler o valor e armazenar em uma variável valor2
 
-soma = 0
-while num1 <= num2:
-  if num1 % 2 == 0:
-    soma = soma + num1
-  num1 = num1 + 1
-print(f"A soma é {soma}")
+soma = 0 # criar uma variável para armazenar a soma dos números pares entre os valores informados pelo usuário
+while num1 <= num2: # criar um laço para somar os números pares entre os valores informados pelo usuário
+  if num1 % 2 == 0: # se o resto da divisão do número informado pelo usuário por 2 for igual a 0
+    soma = soma + num1 # somar o número informado pelo usuário a variável soma e armazenar na variável soma
+  num1 = num1 + 1  # ficar atento a identação do bloco para evitar um loop infinito (não precisa ficar no final do laço)
+print(f"A soma é {soma}") # imprimir a soma dos números pares entre os valores informados pelo usuário e armazenada na variável soma
 print('fim do programa')
 
 
