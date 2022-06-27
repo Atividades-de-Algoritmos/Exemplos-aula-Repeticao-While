@@ -9,6 +9,25 @@
 # números pares entre dois números quaisquer,
 # incluindo-os.
 #
+# usando o laço While:
+# entrada de dados
+num1 = int(input('Entre com o valor inicial: '))
+num2 = int(input('Entre com o valor final: '))
+
+soma = 0
+while num1 <= num2:
+  if num1 % 2 == 0:
+    soma = soma + num1
+  num1 = num1 + 1
+print(f"A soma é {soma}")
+print('fim do programa')
+
+
+#############################################################################
+print("#############################################################################")
+
+
+#usando o laço FOR:
 # entrada de dados
 valor1 = int(input("informe um valor: ")) # ler o valor e armazenar em uma variável valor1
 valor2 = int(input("informe um valor: ")) # ler o valor e armazenar em uma variável valor2
