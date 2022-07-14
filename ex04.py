@@ -1,62 +1,54 @@
 #
-#
-# autores:
+# Autores:
 # Michel Silva
+# Carlos Eduardo
+# 
+# data: 13/07/2022
 #
-# data: 26/06/2022
+# Material auxiliar (fatorial sem recursão);
+# link: https://pt.wikipedia.org/wiki/Fatorial
 #
-# 4  - Programa que calcule o fatorial de um número.
-#
-# usando o laço While:
+# 4 - Programa que calcule o fatorial de um número.
 
-#Exemplo (fatorial sem recursão):
-#https://pt.wikipedia.org/wiki/Fatorial
+# [ Usando o laço While ]
 
-################   1   #########################
-numero = int(input('Digite um número inteiro positivo: '))
+# -- Entrada de dados --
 
-fat = 1 # inicializar o fatorial com 1
-while numero > 0: # criar um laço para calcular o fatorial do número informado pelo usuário
-  fat = fat * numero # multiplicar o fatorial pelo número informado pelo usuário
-  numero = numero - 1 # decrementar o número informado pelo usuário
-print('O fatorial desse número é ', fat) # imprimir o fatorial do número informado pelo usuário
+numero = int(input('Digite um número inteiro positivo: ')) # Solicitando um valor inteiro do usuário
+fatorial = 1 # Inicializar o fatorial com 1
 
-################   2   ###########################
-# se a entrada for ZERO
-#entrada
-num1 = int(input("informe um número :")) # ler o valor e armazenar em uma variável valor1
-temp = num1 # armazenar o valor informado pelo usuário em uma variável temporária
-fat = 1 # inicializar o fatorial com 1 para o caso de ser ZERO
-#processamento de dados
-if num1 == 0 : # se o número informado pelo usuário for ZERO
-  pass # não fazer nada
-else: # se o número informado pelo usuário não for ZERO
-  while (num1 > 0): # criar um laço para calcular o fatorial do número informado pelo usuário
-    fat = fat * num1 # multiplicar o fatorial pelo número informado pelo usuário
-    num1 = num1 - 1 # decrementar o número informado pelo usuário
+# -- Processamento de dados --
 
-#saida
-print(f"o fatorial de {temp} é {fat}") # imprimir o fatorial do número informado pelo usuário e armazenado na variável fat
+while numero > 0: # Criando um laço para calcular o fatorial do número informado
+  
+  fatorial = fatorial * numero # Multiplicando o fatorial pelo número informado
+  numero = numero - 1 # Decrementando o número informado pelo usuário
+
+# -- Saída de dados --
+
+print('\nO fatorial desse número:', fatorial) # Imprimindo o fatorial
+print('\nfim do programa') # Informando ao usuário que o programa terminou
 
 
+# Versão 2.0 do código
 
+# ------------------------------------------------------------ #
 
+# [ Usando o laço FOR ]
 
+"""# -- Entrada de dados --
 
+valor = int(input("informe um valor: ")) # Solicitando um valor inteiro
+fatorial = 1 # Criando uma variável para armazenar o fatorial
 
-###############################################################################
-print("###############################################################################")
+# -- Processamento de dados --
 
+for i in range(1, valor + 1): # Criando um laço para calcular o fatorial do número informado pelo usuário
+    fatorial *= i # Multiplicando o fatorial pelo número do ciclo atual
 
-# usando o laço FOR:
-# entrada de dados
-valor = int(input("informe um valor: ")) # ler o valor e armazenar em uma variável valor
-fatorial = 1 # criar uma variável para armazenar o fatorial
+# -- Saída de dados --
 
-# processamento de dados
-for i in range(1, valor + 1): # criar um laço para calcular o fatorial do número informado pelo usuário
-    fatorial *= i # multiplicar o fatorial pelo número informado pelo usuário
+print(f"\nO fatorial de {valor}!: {fatorial}") # Imprimindo o fatorial do número informado pelo usuário
+print("\nfim do programa") # Informando ao usuário que o programa terminou"""
 
-# saida de dados
-print(f"O fatorial de {valor} é {fatorial}") # imprimir o fatorial do número informado pelo usuário
-print("fim do programa")
+# ------------------------------------------------------------ #
