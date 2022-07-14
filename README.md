@@ -1,11 +1,11 @@
 
-<a href="#Sumario"><img src="https://img.shields.io/badge/Exerc%C3%ADcios-4-bluestyle=for-the-badge"/></a>
-<img src="https://img.shields.io/github/stars/Atividades-de-Algoritmos/Exemplos-aula-Repeti-o-Whilestyle=for-the-badge"/>
-<img src="https://img.shields.io/badge/Lingua-Portugu%C3%AAs--Brasileiro-brightgreenstyle=for-the-badge"/>
-<a href="https://github.com/Exemplos-aula-Repeti-o-While/graphs/contributors"><img src="https://img.shields.io/github/contributors/Atividades-de-Algoritmos/Exemplos-aula-Repeti-o-While.svgstyle=for-the-badge"/></a>
-<a href="https://github.com/Exemplos-aula-Repeti-o-While/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Atividades-de-Algoritmos/Exemplos-aula-Repeti-o-While.svgstyle=for-the-badge"/></a>
+<a href="#Sumario"><img src="https://img.shields.io/badge/Exerc%C3%ADcios-4-blue?style=for-the-badge"/></a>
+<img src="https://img.shields.io/github/stars/Atividades-de-Algoritmos/Exemplos-aula-Repeticao-While?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Lingua-Portugu%C3%AAs--Brasileiro-brightgreen?style=for-the-badge"/>
+<a href="https://github.com/Exemplos-aula-Repeticao-While/graphs/contributors"><img src="https://img.shields.io/github/contributors/Atividades-de-Algoritmos/Exemplos-aula-Repeticao-While.svg?style=for-the-badge"/></a>
+<a href="https://github.com/Exemplos-aula-Repeticao-While/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Atividades-de-Algoritmos/Exemplos-aula-Repeticao-While.svg?style=for-the-badge"/></a>
 
-# Exemplos-aula-Repeti-o-While 💻
+# Exemplos-aula-Repeticao-While 💻
 > Desenvolvido em linguagem Python 🐍
 ### Por:
 - [**Michel**](https://github.com/MichelZero)
@@ -37,7 +37,7 @@
 <br>
 
 # ex01
-#### <a href="https://github.com/Atividades-de-Algoritmos/Exemplos-aula-Repeti-o-While/blob/main/ex01.py">Ir até o código</a>
+#### <a href="https://github.com/Atividades-de-Algoritmos/Exemplos-aula-Repeticao-While/blob/main/ex01.py">Ir até o código</a>
 
 <br>
 
@@ -76,7 +76,7 @@ fim do programa
 <br>
 
 # ex02
-#### <a href="https://github.com/Atividades-de-Algoritmos/Exemplos-aula-Repeti-o-While/blob/main/ex02.py">Ir até o código</a>
+#### <a href="https://github.com/Atividades-de-Algoritmos/Exemplos-aula-Repeticao-While/blob/main/ex02.py">Ir até o código</a>
 
 <br>
 
@@ -115,7 +115,7 @@ fim do programa
 <br>
 
 # ex03
-#### <a href="https://github.com/Atividades-de-Algoritmos/Exemplos-aula-Repeti-o-While/blob/main/ex03.py">Ir até o código</a>
+#### <a href="https://github.com/Atividades-de-Algoritmos/Exemplos-aula-Repeticao-While/blob/main/ex03.py">Ir até o código</a>
 
 <br>
 
@@ -154,7 +154,7 @@ fim do programa
 <br>
 
 # ex04
-#### <a href="https://github.com/Atividades-de-Algoritmos/Exemplos-aula-Repeti-o-While/blob/main/ex04.py">Ir até o código</a>
+#### <a href="https://github.com/Atividades-de-Algoritmos/Exemplos-aula-Repeticao-While/blob/main/ex04.py">Ir até o código</a>
 
 <br>
 
